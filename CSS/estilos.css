@@ -46,12 +46,26 @@ body{ font-family: "Poppins", sans-serif;
 
 
 /*NAV*/
-.nav{
-    --padding-container:0;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.nav {
+    position: fixed; /* Hace que el menú se mantenga fijo en la parte superior */
+    top: 0; /* Lo posiciona en la parte superior */
+    width: 100%; /* Lo hace ocupar todo el ancho de la pantalla */
+    background-color: #2091f9; /* Color de fondo del menú */
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+    padding: 10px 20px; /* Añade un poco de espacio entre los elementos del menú */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
+    transition: top 0.3s; /* Agrega una transición suave al desplazar el menú */
 }
+
+.nav_menu {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.nav_menu.active {
+    display: none; /* Oculta el menú cuando la clase "active" está presente */
+}
+
 
 .nav_title{
     font-weight: 300;
