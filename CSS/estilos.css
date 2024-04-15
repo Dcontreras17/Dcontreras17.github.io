@@ -88,6 +88,9 @@ body{ font-family: "Poppins", sans-serif;
     color: #fff;
     text-decoration: none;
 }
+.nav_link.nav_link--show {
+    display: block;     
+}
 
 .nav_menu{
     margin-left: auto;
