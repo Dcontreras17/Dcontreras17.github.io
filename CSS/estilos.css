@@ -72,6 +72,27 @@ body{ font-family: "Poppins", sans-serif;
     gap: 2em;
 }
 
+.nav_items {
+    margin-right: 20px; /* Añade un margen derecho a cada elemento de la lista */
+}
+
+/* O bien, puedes aplicar márgenes a los enlaces directamente */
+
+.nav_links {
+    margin-right: 20px; /* Añade un margen derecho a cada enlace */
+}
+
+/* O puedes aplicar tanto márgenes como rellenos para un espacio más grande */
+
+.nav_items {
+    margin-right: 10px; /* Añade un margen derecho a cada elemento de la lista */
+}
+
+.nav_links {
+    padding: 10px; /* Añade un relleno a cada enlace */
+}
+
+
 .nav_links{
     color: #fff;
     text-decoration: none;
