@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/estilos.css">
     <link rel="stylesheet" href="./CSS/registro.css">
+    <link rel="stylesheet" href="./CSS/loin.css">
+
 
 
     <meta name="theme--color" content="#2091f9">
@@ -51,7 +53,7 @@
 
     <div class="contenedor">
         <h1>Registro de Equipo</h1>
-        <form id="registroEquipoForm">
+        <form action="procesar_login.php" method="POST">
             <label for="nombreEquipo">Nombre del Equipo:</label>
             <input type="text" id="nombreEquipo" required>
 
@@ -67,9 +69,7 @@
             <button type="submit">Registrar Equipo</button>
         </form>
     </div>
-
-
-</section>
+   </section>
 <script src="./JS/slider.js"></script>
 <script src="./JS/quetions.js"></script>
 <script src="./JS/menu.js"></script>
