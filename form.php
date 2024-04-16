@@ -17,7 +17,7 @@ $para = 'dcontreras44@itfip.edu.co';
 $asunto = 'sitio web de ItfipSport';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
-header('Locatio:registro.html')
+header('Location:registro.html')
 
 
 ?>
