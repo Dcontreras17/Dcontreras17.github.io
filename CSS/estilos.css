@@ -2,9 +2,7 @@
 :root{
     --padding-container:100px 0;
     --color-title:#001A49;
-
-
-
+}
 body{ font-family: "Poppins", sans-serif;
 }
 .container{
@@ -51,10 +49,8 @@ body{ font-family: "Poppins", sans-serif;
     height: 100%;
     display: flex;
     align-items: center;
-
-
-
 }
+
 .nav_title{
     font-weight: 300;
 }
@@ -72,13 +68,9 @@ body{ font-family: "Poppins", sans-serif;
     gap: 2em;
 }
 
-
 .nav_links{
     color: #fff;
     text-decoration: none;
-}
-.nav_link.nav_link--show {
-    display: block;     
 }
 
 .nav_menu{
@@ -710,10 +702,6 @@ padding: 60px 40px;
             /*margin: 0;
             width: 100%;
             */
-    
-        
-
-        }
     }
 }
 
