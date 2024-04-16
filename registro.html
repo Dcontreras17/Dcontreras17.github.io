@@ -53,9 +53,10 @@
 
     <div class="contenedor">
         <h1>Registro de Equipo</h1>
-        <form action="procesar_login.php" method="POST">
+        <form action="registro.php" method="POST">
+
             <label for="nombreEquipo">Nombre del Equipo:</label>
-            <input type="text" id="nombreEquipo" required>
+            <input type="text" id="nombre" required>
 
             <label for="deporte">Deporte:</label>
             <input type="text" id="deporte" required>
@@ -73,5 +74,10 @@
 <script src="./JS/slider.js"></script>
 <script src="./JS/quetions.js"></script>
 <script src="./JS/menu.js"></script>
+
+<?php
+include("registro.php");
+?>
+
 </body>
 </html>
